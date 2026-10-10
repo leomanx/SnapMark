@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UseWPF>true</UseWPF><UseWindowsForms>true</UseWindowsForms></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../SnapMark.Core/SnapMark.Core.csproj" /></ItemGroup>
+  <ItemGroup><Using Remove="System.Drawing" /><Using Remove="System.Windows.Forms" /></ItemGroup>
+</Project>

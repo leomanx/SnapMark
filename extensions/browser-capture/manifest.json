@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "SnapMark Local Page Capture",
+  "version": "0.1.0",
+  "description": "Capture the active webpage to a local PNG for SnapMark. No server or upload.",
+  "permissions": ["activeTab", "debugger", "downloads"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" }
+}

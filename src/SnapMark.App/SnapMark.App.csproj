@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><UseWPF>true</UseWPF><UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets/SnapMark.ico</ApplicationIcon>
+    <AssemblyName>SnapMark</AssemblyName>
+    <Version>0.6.12</Version>
+    <!-- WPF owns process DPI via the manifest; WinForms is used only for NotifyIcon. -->
+    <NoWarn>$(NoWarn);WFAC010</NoWarn>
+  </PropertyGroup>
+  <ItemGroup><Using Remove="System.Drawing" /><Using Remove="System.Windows.Forms" /></ItemGroup>
+  <ItemGroup><Resource Include="Assets/SnapMark.ico" /><Resource Include="Assets/SnapMark.png" /></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../SnapMark.Capture/SnapMark.Capture.csproj" />
+    <ProjectReference Include="../SnapMark.Editor/SnapMark.Editor.csproj" />
+    <ProjectReference Include="../SnapMark.Export/SnapMark.Export.csproj" />
+    <ProjectReference Include="../SnapMark.Recording/SnapMark.Recording.csproj" />
+  </ItemGroup>
+</Project>

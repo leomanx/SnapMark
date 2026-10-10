@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><UseWPF>true</UseWPF></PropertyGroup>
+  <ItemGroup><EmbeddedResource Include="../../src/SnapMark.App/App.xaml" LogicalName="SnapMark.TestTheme.xaml" /></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/SnapMark.Core/SnapMark.Core.csproj" />
+    <ProjectReference Include="../../src/SnapMark.Editor/SnapMark.Editor.csproj" />
+    <ProjectReference Include="../../src/SnapMark.Export/SnapMark.Export.csproj" />
+    <ProjectReference Include="../../src/SnapMark.Capture/SnapMark.Capture.csproj" />
+    <ProjectReference Include="../../src/SnapMark.Recording/SnapMark.Recording.csproj" />
+    <ProjectReference Include="../../src/SnapMark.App/SnapMark.App.csproj" />
+  </ItemGroup>
+</Project>

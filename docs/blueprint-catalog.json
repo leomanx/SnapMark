@@ -1,0 +1,722 @@
+[
+  {
+    "id": 1,
+    "title": "Product Goal",
+    "group": "A",
+    "priority": "P0"
+  },
+  {
+    "id": 2,
+    "title": "Core UX Philosophy",
+    "group": "A",
+    "priority": "P0"
+  },
+  {
+    "id": 3,
+    "title": "Target Platform",
+    "group": "A",
+    "priority": "P0"
+  },
+  {
+    "id": 4,
+    "title": "High-Level Architecture",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 5,
+    "title": "Repository Structure",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 6,
+    "title": "Core Modules",
+    "group": "C",
+    "priority": "P0"
+  },
+  {
+    "id": 7,
+    "title": "Region Capture",
+    "group": "C",
+    "priority": "P0"
+  },
+  {
+    "id": 8,
+    "title": "Window Capture",
+    "group": "C",
+    "priority": "P0"
+  },
+  {
+    "id": 9,
+    "title": "Full Screen / Monitor Capture",
+    "group": "C",
+    "priority": "P0"
+  },
+  {
+    "id": 10,
+    "title": "Capture Result Model",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 11,
+    "title": "Editor Architecture",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 12,
+    "title": "Annotation Object Model",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 13,
+    "title": "Annotation Tools",
+    "group": "D",
+    "priority": "P1"
+  },
+  {
+    "id": 14,
+    "title": "Arrow Tool",
+    "group": "D",
+    "priority": "P1"
+  },
+  {
+    "id": 15,
+    "title": "Text Tool",
+    "group": "D",
+    "priority": "P1"
+  },
+  {
+    "id": 16,
+    "title": "Shape Tool",
+    "group": "D",
+    "priority": "P1"
+  },
+  {
+    "id": 17,
+    "title": "Highlight Tool",
+    "group": "D",
+    "priority": "P1"
+  },
+  {
+    "id": 18,
+    "title": "Blur / Pixelate",
+    "group": "D",
+    "priority": "P1"
+  },
+  {
+    "id": 19,
+    "title": "Numbered Steps",
+    "group": "D",
+    "priority": "P1"
+  },
+  {
+    "id": 20,
+    "title": "Undo / Redo",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 21,
+    "title": "Selection System",
+    "group": "D",
+    "priority": "P1"
+  },
+  {
+    "id": 22,
+    "title": "Crop System",
+    "group": "D",
+    "priority": "P1"
+  },
+  {
+    "id": 23,
+    "title": "Clipboard",
+    "group": "F",
+    "priority": "P0"
+  },
+  {
+    "id": 24,
+    "title": "Export Engine",
+    "group": "F",
+    "priority": "P0"
+  },
+  {
+    "id": 25,
+    "title": "Auto Naming",
+    "group": "F",
+    "priority": "P2"
+  },
+  {
+    "id": 26,
+    "title": "Save Location",
+    "group": "F",
+    "priority": "P2"
+  },
+  {
+    "id": 27,
+    "title": "Capture History",
+    "group": "G",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 28,
+    "title": "Quick Capture Mode",
+    "group": "C",
+    "priority": "P0"
+  },
+  {
+    "id": 29,
+    "title": "Editor Mode",
+    "group": "D",
+    "priority": "P0"
+  },
+  {
+    "id": 30,
+    "title": "Repeat Last Region",
+    "group": "C",
+    "priority": "P0"
+  },
+  {
+    "id": 31,
+    "title": "Delayed Capture",
+    "group": "C",
+    "priority": "P2"
+  },
+  {
+    "id": 32,
+    "title": "Scrolling Capture",
+    "group": "H",
+    "priority": "P3"
+  },
+  {
+    "id": 33,
+    "title": "OCR",
+    "group": "H",
+    "priority": "P3"
+  },
+  {
+    "id": 34,
+    "title": "Screen Recording",
+    "group": "H",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 35,
+    "title": "GIF Recording",
+    "group": "H",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 36,
+    "title": "Cursor Capture",
+    "group": "C",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 37,
+    "title": "Hotkey Manager",
+    "group": "G",
+    "priority": "P0"
+  },
+  {
+    "id": 38,
+    "title": "System Tray",
+    "group": "G",
+    "priority": "P0"
+  },
+  {
+    "id": 39,
+    "title": "Startup Behavior",
+    "group": "G",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 40,
+    "title": "Settings Architecture",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 41,
+    "title": "Preset System",
+    "group": "E",
+    "priority": "P1"
+  },
+  {
+    "id": 42,
+    "title": "Architecture/BIM Tools",
+    "group": "E",
+    "priority": "P1"
+  },
+  {
+    "id": 43,
+    "title": "Measure Tool",
+    "group": "E",
+    "priority": "P2"
+  },
+  {
+    "id": 44,
+    "title": "Revision Cloud",
+    "group": "E",
+    "priority": "P1"
+  },
+  {
+    "id": 45,
+    "title": "BIM Callout Tool",
+    "group": "E",
+    "priority": "P1"
+  },
+  {
+    "id": 46,
+    "title": "Stamp System",
+    "group": "E",
+    "priority": "P1"
+  },
+  {
+    "id": 47,
+    "title": "Discipline Presets",
+    "group": "E",
+    "priority": "P1"
+  },
+  {
+    "id": 48,
+    "title": "Project Mode",
+    "group": "G",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 49,
+    "title": "Compare Tool",
+    "group": "E",
+    "priority": "P2"
+  },
+  {
+    "id": 50,
+    "title": "Image Difference Detection",
+    "group": "E",
+    "priority": "P2"
+  },
+  {
+    "id": 51,
+    "title": "Canvas / Workspace",
+    "group": "D",
+    "priority": "P0"
+  },
+  {
+    "id": 52,
+    "title": "Keyboard-First Workflow",
+    "group": "D",
+    "priority": "P0"
+  },
+  {
+    "id": 53,
+    "title": "Styling Toolbar",
+    "group": "D",
+    "priority": "P1"
+  },
+  {
+    "id": 54,
+    "title": "Rendering Pipeline",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 55,
+    "title": "Image Pipeline",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 56,
+    "title": "DPI Awareness",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 57,
+    "title": "Multi-Monitor",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 58,
+    "title": "Performance Targets",
+    "group": "A",
+    "priority": "P0"
+  },
+  {
+    "id": 59,
+    "title": "Autosave Crash Recovery",
+    "group": "G",
+    "priority": "P2"
+  },
+  {
+    "id": 60,
+    "title": "Native Project Format",
+    "group": "G",
+    "priority": "P2"
+  },
+  {
+    "id": 61,
+    "title": "Annotation JSON",
+    "group": "G",
+    "priority": "P2"
+  },
+  {
+    "id": 62,
+    "title": "Plugin Architecture",
+    "group": "I",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 63,
+    "title": "Plugin Folder",
+    "group": "I",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 64,
+    "title": "Share Integrations",
+    "group": "F",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 65,
+    "title": "Privacy Model",
+    "group": "A",
+    "priority": "P0"
+  },
+  {
+    "id": 66,
+    "title": "Security",
+    "group": "A",
+    "priority": "P0"
+  },
+  {
+    "id": 67,
+    "title": "Auto Redaction",
+    "group": "H",
+    "priority": "P3"
+  },
+  {
+    "id": 68,
+    "title": "Color Picker",
+    "group": "D",
+    "priority": "P2"
+  },
+  {
+    "id": 69,
+    "title": "Ruler Tool",
+    "group": "D",
+    "priority": "P2"
+  },
+  {
+    "id": 70,
+    "title": "Crosshair / Screen Guide",
+    "group": "D",
+    "priority": "P2"
+  },
+  {
+    "id": 71,
+    "title": "Screen Freeze",
+    "group": "C",
+    "priority": "P0"
+  },
+  {
+    "id": 72,
+    "title": "Magnifier",
+    "group": "C",
+    "priority": "P2"
+  },
+  {
+    "id": 73,
+    "title": "Snap Detection",
+    "group": "C",
+    "priority": "P3"
+  },
+  {
+    "id": 74,
+    "title": "UI Automation Capture",
+    "group": "C",
+    "priority": "P3"
+  },
+  {
+    "id": 75,
+    "title": "Scrolling Webpage Capture",
+    "group": "H",
+    "priority": "P3"
+  },
+  {
+    "id": 76,
+    "title": "PDF Import",
+    "group": "F",
+    "priority": "P2"
+  },
+  {
+    "id": 77,
+    "title": "Drag & Drop",
+    "group": "F",
+    "priority": "P2"
+  },
+  {
+    "id": 78,
+    "title": "Paste Image",
+    "group": "F",
+    "priority": "P0"
+  },
+  {
+    "id": 79,
+    "title": "Open Existing Image",
+    "group": "F",
+    "priority": "P2"
+  },
+  {
+    "id": 80,
+    "title": "Context Menu Integration",
+    "group": "F",
+    "priority": "P2"
+  },
+  {
+    "id": 81,
+    "title": "Notification System",
+    "group": "G",
+    "priority": "P0"
+  },
+  {
+    "id": 82,
+    "title": "Sound Feedback",
+    "group": "G",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 83,
+    "title": "Theme",
+    "group": "G",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 84,
+    "title": "UI Layout",
+    "group": "D",
+    "priority": "P1"
+  },
+  {
+    "id": 85,
+    "title": "MVP Scope",
+    "group": "A",
+    "priority": "P0"
+  },
+  {
+    "id": 86,
+    "title": "Phase 1 — Capture Core",
+    "group": "J",
+    "priority": "อ้างอิง phase เดิม"
+  },
+  {
+    "id": 87,
+    "title": "Phase 2 — Editor Core",
+    "group": "J",
+    "priority": "อ้างอิง phase เดิม"
+  },
+  {
+    "id": 88,
+    "title": "Phase 3 — Advanced Annotation",
+    "group": "J",
+    "priority": "อ้างอิง phase เดิม"
+  },
+  {
+    "id": 89,
+    "title": "Phase 4 — Productivity",
+    "group": "J",
+    "priority": "อ้างอิง phase เดิม"
+  },
+  {
+    "id": 90,
+    "title": "Phase 5 — Architecture Tools",
+    "group": "J",
+    "priority": "อ้างอิง phase เดิม"
+  },
+  {
+    "id": 91,
+    "title": "Phase 6 — OCR",
+    "group": "J",
+    "priority": "อ้างอิง phase เดิม"
+  },
+  {
+    "id": 92,
+    "title": "Phase 7 — Scrolling",
+    "group": "J",
+    "priority": "อ้างอิง phase เดิม"
+  },
+  {
+    "id": 93,
+    "title": "Phase 8 — Recording",
+    "group": "J",
+    "priority": "อ้างอิง phase เดิม"
+  },
+  {
+    "id": 94,
+    "title": "Phase 9 — Plugin SDK",
+    "group": "J",
+    "priority": "อ้างอิง phase เดิม"
+  },
+  {
+    "id": 95,
+    "title": "Dependency Strategy",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 96,
+    "title": "Suggested NuGet",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 97,
+    "title": "Dependency Injection",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 98,
+    "title": "Core Interfaces",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 99,
+    "title": "Event System",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 100,
+    "title": "Logging",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 101,
+    "title": "Error Handling",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 102,
+    "title": "Testing Strategy",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 103,
+    "title": "Coordinate System",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 104,
+    "title": "Editor Document Model",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 105,
+    "title": "Tool State Machine",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 106,
+    "title": "Architecture Principle",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 107,
+    "title": "Suggested Namespace",
+    "group": "B",
+    "priority": "P0"
+  },
+  {
+    "id": 108,
+    "title": "Portable Version",
+    "group": "I",
+    "priority": "P0"
+  },
+  {
+    "id": 109,
+    "title": "Installer",
+    "group": "I",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 110,
+    "title": "Auto Update",
+    "group": "I",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 111,
+    "title": "Licensing",
+    "group": "A",
+    "priority": "P0"
+  },
+  {
+    "id": 112,
+    "title": "Intellectual Property Boundary",
+    "group": "A",
+    "priority": "P0"
+  },
+  {
+    "id": 113,
+    "title": "Product Differentiator",
+    "group": "A",
+    "priority": "P0"
+  },
+  {
+    "id": 114,
+    "title": "Architecture Workflow Example",
+    "group": "A",
+    "priority": "P0"
+  },
+  {
+    "id": 115,
+    "title": "Revit-Specific Future Feature",
+    "group": "G",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 116,
+    "title": "App Profiles",
+    "group": "G",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 117,
+    "title": "Capture Metadata",
+    "group": "B",
+    "priority": "P2"
+  },
+  {
+    "id": 118,
+    "title": "Searchable History",
+    "group": "G",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 119,
+    "title": "Command Palette",
+    "group": "G",
+    "priority": "P4 / optional"
+  },
+  {
+    "id": 120,
+    "title": "Final Recommended Product Layers",
+    "group": "B",
+    "priority": "P0"
+  }
+]

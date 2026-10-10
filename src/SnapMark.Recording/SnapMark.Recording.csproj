@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup><ProjectReference Include="../SnapMark.Core/SnapMark.Core.csproj" /></ItemGroup>
+  <ItemGroup><PackageReference Include="NAudio.Wasapi" Version="2.2.1" /></ItemGroup>
+</Project>

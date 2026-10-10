@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup><ProjectReference Include="../../src/SnapMark.Core/SnapMark.Core.csproj" /></ItemGroup>
+</Project>

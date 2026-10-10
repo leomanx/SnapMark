@@ -1,0 +1,42 @@
+SnapMark Source-Available License 1.0 — Free Use, No Software Resale
+
+Copyright (c) 2026 Teerapat Chumrassomboon
+
+1. Scope
+This license applies to original SnapMark source code, documentation and assets
+distributed with this license (the Software). Third-party components retain
+their own licenses; this license does not restrict rights those licenses grant.
+
+2. Permission
+Permission is granted, without charge, to use, copy, inspect, modify and
+distribute the Software, including modified versions, subject to these terms.
+Use in businesses and paid professional work is permitted. Users may sell
+their own drawings, images, videos and other work produced with the Software.
+This license does not claim ownership of those outputs or user-provided data.
+
+3. No software resale
+You may not sell the Software or modified versions, charge for their download,
+distribution, access or license, or include them in a paid software product or
+subscription. Separate written permission from the copyright holder is
+required for these activities. Charging for professional work performed using
+the Software or for optional support, training or installation services is
+permitted, provided the Software itself remains available to the recipient
+without charge and payment is not required to obtain or use it.
+
+4. Redistribution and changes
+Keep this license and copyright notice with every copy or substantial portion
+of the Software, in source or binary form. Redistributed modified versions
+must identify their modifications and remain subject to these terms. You may
+not remove the no-resale restriction or add a requirement to pay for access
+to the Software. Do not imply endorsement by the copyright holder.
+No trademark rights are granted by this license.
+
+5. Warranty and liability
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. TO THE EXTENT PERMITTED BY LAW,
+THE AUTHORS AND COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+This is a custom source-available license, not the MIT License and not an
+OSI-approved open-source license.

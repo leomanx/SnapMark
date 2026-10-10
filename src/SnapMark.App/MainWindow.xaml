@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="SnapMark.App.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Style="{StaticResource {x:Type Window}}" Title="SnapMark" Width="860" Height="540" MinWidth="640" MinHeight="480" WindowStartupLocation="CenterScreen">
+  <Window.Resources>
+    <Style x:Key="HomeButton" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+      <Setter Property="Padding" Value="12,7" />
+      <Setter Property="Margin" Value="0,0,7,6" />
+      <Setter Property="HorizontalAlignment" Value="Left" />
+      <Setter Property="HorizontalContentAlignment" Value="Left" />
+      <Setter Property="MinHeight" Value="34" />
+    </Style>
+    <Style x:Key="HomeCard" TargetType="Border">
+      <Setter Property="Background" Value="{DynamicResource PanelBrush}" />
+      <Setter Property="Padding" Value="12,10,12,5" />
+      <Setter Property="CornerRadius" Value="8" />
+      <Setter Property="Margin" Value="0,0,0,9" />
+      <Setter Property="BorderBrush" Value="{DynamicResource ButtonBrush}" />
+      <Setter Property="BorderThickness" Value="1" />
+    </Style>
+    <Style x:Key="HomeHeading" TargetType="TextBlock">
+      <Setter Property="FontSize" Value="12" />
+      <Setter Property="FontWeight" Value="SemiBold" />
+      <Setter Property="Foreground" Value="{DynamicResource AccentBrush}" />
+      <Setter Property="Margin" Value="0,0,0,8" />
+    </Style>
+    <Style x:Key="Shortcut" TargetType="TextBlock">
+      <Setter Property="FontSize" Value="10" />
+      <Setter Property="Foreground" Value="{DynamicResource SecondaryBrush}" />
+      <Setter Property="Margin" Value="0,2,0,0" />
+    </Style>
+  </Window.Resources>
+  <Grid Margin="20,16">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <StackPanel Margin="0,0,0,14">
+      <StackPanel Orientation="Horizontal">
+        <Image Source="pack://application:,,,/SnapMark;component/Assets/SnapMark.png" Width="36" Height="36" Margin="0,0,10,0" />
+        <TextBlock Text="SnapMark" FontSize="25" FontWeight="SemiBold" />
+        <TextBlock x:Name="VersionLabel" Margin="10,0,0,0" VerticalAlignment="Center" Foreground="{DynamicResource SecondaryBrush}" />
+      </StackPanel>
+      <TextBlock Text="Capture → Mark up → Copy / Save" Foreground="{DynamicResource SecondaryBrush}" Margin="0,3,0,0" />
+    </StackPanel>
+    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+      <StackPanel>
+        <Border Style="{StaticResource HomeCard}">
+          <StackPanel>
+            <TextBlock Text="CAPTURE / จับภาพ" Style="{StaticResource HomeHeading}" />
+            <WrapPanel>
+              <Button x:Name="RegionButton" Style="{StaticResource HomeButton}" Click="Region_Click" Background="#155E75" Foreground="White" ToolTip="ลากกรอบเลือกพื้นที่ · กด W เพื่อชี้เลือกหน้าต่าง" Content="RegionButton" />
+              <Button x:Name="QuickButton" Style="{StaticResource HomeButton}" Click="Quick_Click" ToolTip="เลือกพื้นที่แล้ว copy ทันที" Content="QuickButton" />
+              <Button Style="{StaticResource HomeButton}" Content="WindowButton" Click="PickWindow_Click" ToolTip="ชี้หน้าต่างโปรแกรมแล้วคลิกจับภาพ" x:Name="WindowButton" />
+              <Button x:Name="MonitorButton" Style="{StaticResource HomeButton}" Click="Monitor_Click" ToolTip="จับเฉพาะจอที่เมาส์อยู่เมื่อใช้ shortcut" Content="MonitorButton" />
+              <Button Style="{StaticResource HomeButton}" Content="AllButton" Click="All_Click" x:Name="AllButton" />
+              <Button x:Name="RepeatButton" Style="{StaticResource HomeButton}" Click="Repeat_Click" Content="RepeatButton" />
+              <Button Style="{StaticResource HomeButton}" Content="ScrollButton" Click="Scrolling_Click" x:Name="ScrollButton" />
+            </WrapPanel>
+          </StackPanel>
+        </Border>
+        <Border Style="{StaticResource HomeCard}">
+          <StackPanel>
+            <TextBlock Text="VIDEO / วิดีโอ" Style="{StaticResource HomeHeading}" />
+            <WrapPanel>
+              <Button Style="{StaticResource HomeButton}" Content="VideoButton" Click="Video_Click" Background="#155E75" Foreground="White" x:Name="VideoButton" />
+              <Button Style="{StaticResource HomeButton}" Content="TrimButton" Click="VideoTools_Click" x:Name="TrimButton" />
+            </WrapPanel>
+          </StackPanel>
+        </Border>
+        <Border Style="{StaticResource HomeCard}">
+          <StackPanel>
+            <TextBlock Text="FILES &amp; HISTORY / ไฟล์และภาพย้อนหลัง" Style="{StaticResource HomeHeading}" />
+            <WrapPanel>
+              <Button Style="{StaticResource HomeButton}" Content="OpenButton" Click="Open_Click" x:Name="OpenButton" />
+              <Button Style="{StaticResource HomeButton}" Content="Photo Tools" Click="PhotoTools_Click" x:Name="PhotoButton" />
+              <Button Style="{StaticResource HomeButton}" Content="PasteButton" Click="Paste_Click" x:Name="PasteButton" />
+              <Button x:Name="HistoryButton" Style="{StaticResource HomeButton}" Click="History_Click" Content="HistoryButton" />
+              <Button Style="{StaticResource HomeButton}" Content="RecoveryButton" Click="Recovery_Click" x:Name="RecoveryButton" />
+              <Button Style="{StaticResource HomeButton}" Content="TeamButton" Click="TeamFolders_Click" x:Name="TeamButton" />
+            </WrapPanel>
+          </StackPanel>
+        </Border>
+        <Border Style="{StaticResource HomeCard}">
+          <StackPanel>
+            <TextBlock Text="SETTINGS &amp; EXTENSIONS / ตั้งค่าและส่วนเสริม" Style="{StaticResource HomeHeading}" />
+            <WrapPanel>
+              <Button Style="{StaticResource HomeButton}" Content="SettingsButton" Click="Settings_Click" x:Name="SettingsButton" />
+              <Button Style="{StaticResource HomeButton}" Content="ProfilesButton" Click="Profiles_Click" x:Name="ProfilesButton" />
+              <Button Style="{StaticResource HomeButton}" Content="DiagnosticsButton" Click="Diagnostics_Click" x:Name="DiagnosticsButton" />
+              <Button Style="{StaticResource HomeButton}" Content="PluginsButton" Click="Plugins_Click" x:Name="PluginsButton" />
+              <Button Style="{StaticResource HomeButton}" Content="InstallButton" Click="Install_Click" x:Name="InstallButton" />
+            </WrapPanel>
+          </StackPanel>
+        </Border>
+        <TextBlock x:Name="ShortcutHint" Text="PrintScreen → ลากกรอบ · W → เลือกหน้าต่าง" Foreground="{DynamicResource SecondaryBrush}" FontSize="11" Margin="0,0,0,4" TextWrapping="Wrap" />
+      </StackPanel>
+    </ScrollViewer>
+    <TextBlock x:Name="Status" Grid.Row="2" Text="{Binding Status}" Foreground="{DynamicResource SecondaryBrush}" FontSize="11" Margin="0,8,0,0" TextWrapping="Wrap" />
+  </Grid>
+</Window>

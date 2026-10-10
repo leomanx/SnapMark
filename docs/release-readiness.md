@@ -7,10 +7,10 @@ This preparation keeps version 0.6.12 and targets Portable Beta distribution.
 | Latest group | Prepared | Remaining before claiming completion |
 |---|---|---|
 | 1. License / ownership | Custom source-available LICENSE; Teerapat Chumrassomboon; use in companies/paid work allowed, software resale restricted; separate third-party notices | No MIT or OSI-open-source claim |
-| 2. Documentation | Current README/roadmap, quick start, plugin guide, known issues, portable update steps | Add actual public repository/download links when publication is authorized |
+| 2. Documentation | Current README/roadmap, quick start, plugin guide, known issues, portable update steps; public portfolio repo leomanx/SnapMark | Keep docs current as features change |
 | 3. Release QA | Local automated geometry/editor/storage/desktop/video/plugin checks; recorded evidence below | Clean Windows machine; mixed DPI/HDR; Both-mode listening; long recordings; Thai OCR; browser extension runtime |
 | 4. FFmpeg readiness | Persisted Settings Browse/Auto file preference and status; diagnostics resolves preference; still-image tools independent | FFmpeg not bundled; any future bundle needs exact-build licensing review |
-| 5. Maintenance / package | CONTRIBUTING, SECURITY, manifest-based portable ZIP excluding data, ZIP SHA-256 sidecar | Configure private security contact and public issue channel; executable signing optional and currently absent |
+| 5. Maintenance / package | CONTRIBUTING, SECURITY, public GitHub Issues, manifest-based portable ZIP excluding data, ZIP SHA-256 sidecar | Dedicated private security contact not configured; executable signing optional and currently absent |
 
 ## Local checks versus external acceptance
 
@@ -33,5 +33,6 @@ be claimed from running on the development machine. Use this matrix for actual Q
 | Plugins | Load actual DLL, export PNG, decode and verify pixels/dimensions | Automated external assembly smoke |
 
 The license reflects the owner's requested no-resale policy, rather than a standard
-MIT license. The executable/ZIP must be described as **source-available**. No public
-upload, account integration, registration or signing was performed by this preparation.
+MIT license. The executable/ZIP must be described as **source-available**.
+Portfolio repository: https://github.com/leomanx/SnapMark. Hardware checks remain
+open for the Portable Beta; no account integration, registration or signing was performed.

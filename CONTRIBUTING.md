@@ -20,5 +20,6 @@ New plugin capabilities require explicit API design; v1 currently accepts only
 flattened-image exporters. Read [plugins](docs/plugins.md) before proposing tools,
 capture providers or share adapters. Dependencies need license notices and a reason.
 
-No public repository or maintainer contact has been configured yet. These documents
-prepare publication; they do not claim that a public contribution channel exists.
+Repository: https://github.com/leomanx/SnapMark. Use GitHub Issues for reproducible
+bugs and suggestions, and pull requests for proposed changes. Security-sensitive
+details should follow SECURITY.md instead of being posted publicly.

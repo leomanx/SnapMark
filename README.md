@@ -17,9 +17,11 @@ See [LICENSE](LICENSE), [known issues](docs/known-issues.md) and [quick start](d
 - Region MP4 recording, photo batch processing/print layouts, local OCR and synced team folders.
 - Portable/self-contained Windows x64 app; FFmpeg is optional and external for video/GIF.
 
-Download the portable ZIP from this repository's **Releases** page, extract it,
+Download the portable ZIP from [Releases](https://github.com/leomanx/SnapMark/releases/tag/v0.6.12), extract it,
 and run `SnapMark.exe`. Source builds require the .NET 8 SDK on Windows.
 The ZIP excludes personal history/recovery. The executable is currently unsigned.
+Report bugs and suggestions through [GitHub Issues](https://github.com/leomanx/SnapMark/issues)
+using synthetic samples rather than private drawings.
 
 เครื่องมือพื้นฐานครบ 7 หมวด พร้อม image composition และ local video capture
 ไม่มี account / telemetry; เลือกเซฟสำเนาไปโฟลเดอร์ทีม Google Drive / OneDrive ที่ sync อยู่ได้

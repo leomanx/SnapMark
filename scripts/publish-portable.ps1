@@ -13,6 +13,9 @@ foreach ($framework in $runtimeConfig.runtimeOptions.includedFrameworks) {
 }
 New-Item -ItemType File -Path (Join-Path $outputFolder 'portable.flag') -Force | Out-Null
 Copy-Item -LiteralPath (Join-Path $projectRoot 'README.md') -Destination $outputFolder
+$logoFolder = Join-Path $outputFolder 'src\SnapMark.App\Assets'
+New-Item -ItemType Directory -Path $logoFolder -Force | Out-Null
+Copy-Item -LiteralPath (Join-Path $projectRoot 'src\SnapMark.App\Assets\SnapMark.png') -Destination $logoFolder -Force
 foreach ($name in @('LICENSE', 'CONTRIBUTING.md', 'SECURITY.md')) {
     Copy-Item -LiteralPath (Join-Path $projectRoot $name) -Destination $outputFolder -Force
 }

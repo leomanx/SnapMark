@@ -19,6 +19,7 @@ Release SHA-256 files help detect damaged or changed downloads when compared
 against a trusted checksum. They are not executable signatures. SnapMark currently
 has no telemetry, automatic update service or formal security response SLA.
 
-A private security-report contact must be configured before public publication.
-Until then, communicate privately with the maintainer through an established
-channel. Do not disclose sensitive samples or an exploitable issue publicly.
+Maintainer: https://github.com/leomanx. A dedicated private security-report channel
+has not been configured. Use an existing private contact if available; otherwise
+open a GitHub issue requesting a private contact without disclosing exploit details
+or sensitive samples. Do not post credentials or private drawings publicly.
